@@ -16,7 +16,7 @@ body {
 header {
     background: linear-gradient(135deg, #ffb3d9 0%, #ff8fab 100%);
     color: white;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -31,6 +31,31 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+.logo svg {
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.1));
 }
 
 nav h1 {
@@ -61,7 +86,7 @@ nav a:hover {
 
 /* Main content */
 main {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 section {
