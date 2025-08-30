@@ -5,10 +5,17 @@
 
 function calcularMayor(numero1, numero2){
     if(numero1>numero2){
-        return ("Es mayor " + numero1 +" que el numero " +numero2);
+        alert (`Es mayor ${numero1} que el numero ${numero2}`);
     } else if(numero2>numero1){ 
-        return ("Es mayor "+ numero2 +" que "+ numero1);
+        alert (`Es mayor ${numero2} que ${numero1}`);
     } else{ 
-        return ("Tanto " +numero1+ "y" +numero2+ " son iguales");
+        alert(`Los numeros son iguales`);
     }
+}
+
+function ejercicio(){ 
+    const num1 = parseFloat(document.getElementById('numero1').value);
+    const num2 = parseFloat(document.getElementById('numero2').value);
+
+    const resultado = calcularMayor(num1, num2);
 }
