@@ -10,7 +10,7 @@ body {
 .nav {
     background: linear-gradient(90deg, #8d173f, #b13e6a);
     padding: 15px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 6px rgba(86, 57, 190, 0.452);
 }
 
 .nav ul {
@@ -57,7 +57,7 @@ h2 {
     padding: 30px;
     width: 400px;
     margin: 20px auto;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 20px rgba(118, 66, 185, 0.534);
     transition: transform 0.2s;
 }
 
