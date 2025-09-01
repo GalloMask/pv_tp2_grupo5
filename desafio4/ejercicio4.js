@@ -17,5 +17,9 @@ function obtenerDatos() {
         resultado.innerHTML = "Completa todos los campos.";
         return;
     }
+
+    resultado.style.color = "green";
+    resultado.innerHTML = "";
+
         alert(`Los datos ingresados son:\n Nombre: ${nombre}\n Apellido: ${apellido}\n Libreta Universitaria: ${num}`);
 }
