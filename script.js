@@ -17,6 +17,6 @@ function calcularPago() {
         salario *= 1.2;
     }
 
-    resultado.style.color = "#861641ff";
-    resultado.innerHTML = ${nombre}, tu salario mensual es: $${salario.toFixed(2)};
+    resultado.style.color = "#27ae60";
+    resultado.innerHTML = `${nombre}, tu salario mensual es: $${salario.toFixed(2)}`;
 }
