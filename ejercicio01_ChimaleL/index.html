@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Salario Mensual</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+            <ul>
+                <li><a href="desafio1/ejercicio1.html">Desafio-1</a></li>
+                <li><a href="desafio2/ejercicio2.html">Desafio-2</a></li>
+                <li><a href="desafio2/ejercicio2.html">Desafio-3</a></li>
+                <li><a href="desafio2/ejercicio2.html">Desafio-4</a></li>
+            </ul>
+        </nav>
+
+
+
+    <!-- Creamos los titulos del simulador mas el container que almacenara nombre horas y pago de horas
+     para luego ser calculadas adjuntando logica con js para esto, luego mostrarse en pantalla abajo del todo
+     los elementos deberian estar centrados en la pantalla -->
+    <main class="main">
+        <h1>Simulador de Salario Mensual</h1>
+        <h2>Ingresa tus datos y calcula tu pago mensual</h2>
+        <div class="form-container">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre">
+            <label for="horas">Horas:</label>
+            <input type="number" id="horas">
+            <label for="pagoHoras">Pago por cada hora:</label>
+            <input type="number" id="pagoHoras">
+            <button onclick="">Calcular Pago</button>
+            <div id="resultado"></div>
+        </div>
+    </main>
+
+</body>
+</html>
