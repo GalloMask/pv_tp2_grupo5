@@ -13,7 +13,7 @@ function mostrarResultado(){
     if(!nombre || isNaN(horas) || isNaN(pagoHoras)){
         resultado.style.color = "red";
         resultado.innerHTML = "Completa todos los campos";
-        return
+        return;
     }
 
     let salario = horas * pagoHoras;
