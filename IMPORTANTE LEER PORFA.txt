@@ -1,0 +1,3 @@
+al momento de clonar el repositorio, se debe si o sí seleccionar la carpeta del Trabajo Practico 2 con la consola o el gitbash,
+y ejecutar el el VSC en la misma, para realizar un Go Live en el navegador, sino los links que llevan a los ejercicios se desvinculan,
+muchas gracias
